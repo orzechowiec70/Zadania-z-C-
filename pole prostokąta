@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	setlocale (LC_ALL,"");
+	float a,b,P;
+	cout<<"Podaj długości boków"<<endl;
+	cin>>a>>b;
+	if ((a>0) && (b>0))
+		{
+			P=a*b;
+			cout<<"Pole prostokąta wynosi="<<P<<endl;
+		}
+	else
+		cout<<"Długości boków muszą być >0 :P"<<endl;
+	system("PAUSE");
+	return 0;
+	
+}
